@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div  class="row my-5" >
+    <div class="col-12 d-flex justify-content-center align-items-center">
+        <div class="circular-image-container">
+            <img class="circular-image" src="{% static 'image/YC.jpg' %}" alt="imagen">
+        </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+        <h4 class="title">Hola! Mi nombre es </h4>
+    <div>
+        <h1 class="name">Yessica Constante</h1>
+        <h1 class="name">Desarrolladora Python</h1>
+    </div>
+    <div class="col-12 text-center mt-3">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <a href="https://www.linkedin.com/in/yessica-constante-ycv/" target="_blank" >
+                    <img src="{% static 'image/linkedin1.png' %}" alt="linkedin"  width="50" height="50" class="bloque">
+                </a>
+            </div>
+    </div>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="row my-6">
+    <div class="col-md-4 d-flex justify-content-center align-items-center">
+        <img src="{% static 'image/YC.jpg' %}" alt="imagen" class="image-about" >
+
+    </div>
+    <div class="col-md-8 text-left text-light">
+        <h2>Hola!!</h2>
+        <p class="fs-5">Soy Yessica, una apasionada por el codigo con conocimientos 
+            en la creación de soluciones innovadoras y efectivas. 
+            Especializada en el mundo de la programación web, 
+            utilizando tecnologías como Python, Django, Mysql, React, Html, Css, Bootstrap, etc.
+        </p>
+        <p class="fs-5">
+            Mi enfoque se centra en entender las necesidades del usuario y 
+            ofrecer soluciones que no solo sean funcionales,
+            sino también intuitivas y atractivas.
+            En este portafolio, encontrarás una selección de mis proyectos, 
+            que muestran tanto mis capacidades técnicas como mi enfoque 
+            en el diseño centrado en el usuario. Estoy emocionada por la oportunidad
+            de seguir aprendiendo y creciendo en esta industria dinámica. <br><br>
+            ¡Gracias por visitar mi portafolio! Si tienes alguna pregunta 
+            o deseas colaborar en un proyecto, no dudes en contactarme.
+        </p>
+    </div>
+</div>
+<div class="row my-2">
+    <h2 class="text-center py-2" style="color: #4fffb0;"> Mis tecnologías </h2>
+    <div class="d-flex justify-content-around align-items-center">
+        <img src="{% static 'image/html-5.png' %}" alt="html" class="img-fluid" width="70" height="70">
+        <img src="{% static 'image/css-3.png' %}" alt="css" class="img-fluid" width="70" height="70">
+        <img src="{% static 'image/piton.png' %}" alt="python" class="img-fluid" width="70" height="70">
+        <img src="{% static 'image/mysql.png' %}" alt="mysql" class="img-fluid" width="70" height="70">
+        <img src="{% static 'image/django.png' %}" alt="django" class="img-fluid" width="70" height="70">
+        <img src="{% static 'image/react.png' %}" alt="react" class="img-fluid" width="70" height="70">
+    </div>
+</div>
+
+
+
+{% endblock %}
